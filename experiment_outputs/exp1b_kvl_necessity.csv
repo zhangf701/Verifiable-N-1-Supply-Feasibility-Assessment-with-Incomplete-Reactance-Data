@@ -1,0 +1,5 @@
+﻿case,MF_verdict,MF_max_served_MW,MF_shortfall_MW,MF_min_cut_MW,MF_cut_edges,DC_verdict,DC_max_served_MW,DC_shortfall_MW,DC_full_supply,delta_D_MW,note
+5节点-正常方式,可行,700,0.0,700,3->T(250); 4->T(200); 5->T(250),sat,700.0,0.0,sat,0.0,
+5节点-N-1 断 1-5,缺额,600,100,600,2->3(600),sat,600.0,100.0,unsat,0.0,
+5节点-N-1 断 2-3（强制满供）,—,,,,,unsat,,,unsat,,"unsat-core={balance_1, balance_2, cap_1_5, full_demand}"
+3节点-并联通道最小反例,可行,1000,0.0,1000,3->T(1000),sat,945.0,55.0,unsat,55.0,1-3 潮流顶至 900/900 MW；解析解 L*=945.0 MW

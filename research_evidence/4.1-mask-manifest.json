@@ -1,0 +1,183 @@
+{
+  "status": "FROZEN_BEFORE_HYBRID_RUN",
+  "records": [
+    {
+      "outage": 6,
+      "bridge": [
+        "L05"
+      ],
+      "cycle": [
+        "L01"
+      ],
+      "both": [
+        "L05",
+        "L01"
+      ],
+      "selection": "smallest original branch ID among bridges/nonbridges of residual graph; no Hybrid result inspected",
+      "rank_full": 6,
+      "rank_bridge": 6,
+      "rank_cycle": 5
+    },
+    {
+      "outage": 10,
+      "bridge": [
+        "L05"
+      ],
+      "cycle": [
+        "L01"
+      ],
+      "both": [
+        "L05",
+        "L01"
+      ],
+      "selection": "smallest original branch ID among bridges/nonbridges of residual graph; no Hybrid result inspected",
+      "rank_full": 7,
+      "rank_bridge": 7,
+      "rank_cycle": 6
+    },
+    {
+      "outage": 16,
+      "bridge": [
+        "L05"
+      ],
+      "cycle": [
+        "L01"
+      ],
+      "both": [
+        "L05",
+        "L01"
+      ],
+      "selection": "smallest original branch ID among bridges/nonbridges of residual graph; no Hybrid result inspected",
+      "rank_full": 6,
+      "rank_bridge": 6,
+      "rank_cycle": 5
+    },
+    {
+      "outage": 22,
+      "bridge": [
+        "L05"
+      ],
+      "cycle": [
+        "L01"
+      ],
+      "both": [
+        "L05",
+        "L01"
+      ],
+      "selection": "smallest original branch ID among bridges/nonbridges of residual graph; no Hybrid result inspected",
+      "rank_full": 7,
+      "rank_bridge": 7,
+      "rank_cycle": 6
+    },
+    {
+      "outage": 31,
+      "bridge": [
+        "L05"
+      ],
+      "cycle": [
+        "L01"
+      ],
+      "both": [
+        "L05",
+        "L01"
+      ],
+      "selection": "smallest original branch ID among bridges/nonbridges of residual graph; no Hybrid result inspected",
+      "rank_full": 8,
+      "rank_bridge": 8,
+      "rank_cycle": 7
+    },
+    {
+      "outage": 32,
+      "bridge": [
+        "L05"
+      ],
+      "cycle": [
+        "L01"
+      ],
+      "both": [
+        "L05",
+        "L01"
+      ],
+      "selection": "smallest original branch ID among bridges/nonbridges of residual graph; no Hybrid result inspected",
+      "rank_full": 8,
+      "rank_bridge": 8,
+      "rank_cycle": 7
+    },
+    {
+      "outage": 33,
+      "bridge": [
+        "L05"
+      ],
+      "cycle": [
+        "L01"
+      ],
+      "both": [
+        "L05",
+        "L01"
+      ],
+      "selection": "smallest original branch ID among bridges/nonbridges of residual graph; no Hybrid result inspected",
+      "rank_full": 8,
+      "rank_bridge": 8,
+      "rank_cycle": 7
+    },
+    {
+      "outage": 34,
+      "bridge": [
+        "L05"
+      ],
+      "cycle": [
+        "L01"
+      ],
+      "both": [
+        "L05",
+        "L01"
+      ],
+      "selection": "smallest original branch ID among bridges/nonbridges of residual graph; no Hybrid result inspected",
+      "rank_full": 8,
+      "rank_bridge": 8,
+      "rank_cycle": 7
+    },
+    {
+      "outage": 35,
+      "bridge": [
+        "L05"
+      ],
+      "cycle": [
+        "L01"
+      ],
+      "both": [
+        "L05",
+        "L01"
+      ],
+      "selection": "smallest original branch ID among bridges/nonbridges of residual graph; no Hybrid result inspected",
+      "rank_full": 8,
+      "rank_bridge": 8,
+      "rank_cycle": 7
+    },
+    {
+      "outage": 36,
+      "bridge": [
+        "L05"
+      ],
+      "cycle": [
+        "L01"
+      ],
+      "both": [
+        "L05",
+        "L01"
+      ],
+      "selection": "smallest original branch ID among bridges/nonbridges of residual graph; no Hybrid result inspected",
+      "rank_full": 8,
+      "rank_bridge": 8,
+      "rank_cycle": 7
+    }
+  ],
+  "added_task": "4.3b is a separate <=10-case batch for a same-count cycle-edge mask, after4.3 and before4.4. Thus position is not confounded solely with missing count.",
+  "order": [
+    "4.2",
+    "4.3",
+    "4.3b",
+    "4.4",
+    "4.5"
+  ]
+}

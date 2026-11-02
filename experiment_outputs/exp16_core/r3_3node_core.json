@@ -1,0 +1,93 @@
+{
+ "case": "R3 3节点并联通道",
+ "H": {
+  "status": "unsat",
+  "reason": "",
+  "constraint_count": 24,
+  "constraint_labels": [
+   "ref_angle",
+   "kvl_1_3",
+   "sym_1_3",
+   "cap_1_3",
+   "cap_neg_1_3",
+   "ang_1_3",
+   "ang_neg_1_3",
+   "kvl_1_2",
+   "sym_1_2",
+   "cap_1_2",
+   "cap_neg_1_2",
+   "ang_1_2",
+   "ang_neg_1_2",
+   "kvl_2_3",
+   "sym_2_3",
+   "cap_2_3",
+   "cap_neg_2_3",
+   "ang_2_3",
+   "ang_neg_2_3",
+   "slack_min",
+   "slack_max",
+   "balance_1",
+   "balance_2",
+   "balance_3"
+  ]
+ },
+ "core": [
+  "balance_2",
+  "balance_3",
+  "cap_1_3",
+  "kvl_1_2",
+  "kvl_1_3",
+  "kvl_2_3"
+ ],
+ "delete_verification": [
+  {
+   "removed_label": "balance_2",
+   "removed_constraint": "P_2_3 - (P_1_2) == 0",
+   "status": "sat",
+   "reason": "",
+   "retained_constraint_count": 23
+  },
+  {
+   "removed_label": "balance_3",
+   "removed_constraint": "0 - (P_1_3 + P_2_3) == -1000",
+   "status": "sat",
+   "reason": "",
+   "retained_constraint_count": 23
+  },
+  {
+   "removed_label": "cap_1_3",
+   "removed_constraint": "P_1_3 <= 900",
+   "status": "sat",
+   "reason": "",
+   "retained_constraint_count": 23
+  },
+  {
+   "removed_label": "kvl_1_2",
+   "removed_constraint": "P_1_2 == 10*(th_1 - th_2)*100",
+   "status": "sat",
+   "reason": "",
+   "retained_constraint_count": 23
+  },
+  {
+   "removed_label": "kvl_1_3",
+   "removed_constraint": "P_1_3 == 100*(th_1 - th_3)*100",
+   "status": "sat",
+   "reason": "",
+   "retained_constraint_count": 23
+  },
+  {
+   "removed_label": "kvl_2_3",
+   "removed_constraint": "P_2_3 == 10*(th_2 - th_3)*100",
+   "status": "sat",
+   "reason": "",
+   "retained_constraint_count": 23
+  }
+ ],
+ "mf": 1000,
+ "dc_full_supply": "unsat",
+ "dc_full_supply_reason": "",
+ "dc_shortfall_mw": 55.0,
+ "analytic_L": 945.0,
+ "model_version": "kvl_necessity_ablation.py（case_parallel_counterexample）",
+ "solver_timeout_ms": 60000
+}

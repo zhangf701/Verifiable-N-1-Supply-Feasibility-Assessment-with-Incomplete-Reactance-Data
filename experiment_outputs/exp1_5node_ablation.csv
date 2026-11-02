@@ -1,0 +1,4 @@
+﻿case,maxflow_verdict,dc_verdict,dc_time_ms,note
+正常方式,可行（上界 700 MW = 需求）,sat,1.77,平衡节点出力 500 MW
+N-1 断开环网线路 1-5（L5）,缺额（上界 600 MW）,unsat（强制满供）,0.3,"环网断开后退化为链式：最小割 L2 2-3=600MW，MF 与 DC 同判缺额 100 MW，ΔD=0"
+N-1 断开 2-3 强制满供,—,unsat,0.0,"unsat-core={balance_1, full_demand, balance_2, cap_1_5}"

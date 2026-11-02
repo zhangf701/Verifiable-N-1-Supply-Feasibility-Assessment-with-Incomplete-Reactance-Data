@@ -1,0 +1,140 @@
+{
+ "case": "R2 5节点正常方式",
+ "flows": {
+  "1_2": 151.38888888888889,
+  "2_3": 351.38888888888886,
+  "3_4": 101.38888888888889,
+  "4_5": -98.61111111111111,
+  "1_5": 348.61111111111114
+ },
+ "thetas": {
+  "1": 0.0,
+  "2": -0.07569444444444444,
+  "3": -0.35680555555555554,
+  "4": -0.41763888888888884,
+  "5": -0.34861111111111115
+ },
+ "res": "sat",
+ "reason": "",
+ "sat": true,
+ "constraint_checks": [
+  [
+   "ref_angle",
+   true
+  ],
+  [
+   "dc_eq_1_2",
+   true
+  ],
+  [
+   "sym_1_2",
+   true
+  ],
+  [
+   "cap_1_2",
+   true
+  ],
+  [
+   "ang_1_2",
+   true
+  ],
+  [
+   "dc_eq_2_3",
+   true
+  ],
+  [
+   "sym_2_3",
+   true
+  ],
+  [
+   "cap_2_3",
+   true
+  ],
+  [
+   "ang_2_3",
+   true
+  ],
+  [
+   "dc_eq_3_4",
+   true
+  ],
+  [
+   "sym_3_4",
+   true
+  ],
+  [
+   "cap_3_4",
+   true
+  ],
+  [
+   "ang_3_4",
+   true
+  ],
+  [
+   "dc_eq_4_5",
+   true
+  ],
+  [
+   "sym_4_5",
+   true
+  ],
+  [
+   "cap_4_5",
+   true
+  ],
+  [
+   "ang_4_5",
+   true
+  ],
+  [
+   "dc_eq_1_5",
+   true
+  ],
+  [
+   "sym_1_5",
+   true
+  ],
+  [
+   "cap_1_5",
+   true
+  ],
+  [
+   "ang_1_5",
+   true
+  ],
+  [
+   "gen_2",
+   true
+  ],
+  [
+   "balance_3",
+   true
+  ],
+  [
+   "balance_4",
+   true
+  ],
+  [
+   "balance_5",
+   true
+  ],
+  [
+   "slack_range",
+   true
+  ],
+  [
+   "load_full_3",
+   true
+  ],
+  [
+   "load_full_4",
+   true
+  ],
+  [
+   "load_full_5",
+   true
+  ]
+ ],
+ "model_version": "dc_power_flow_smt_v2.py（同参数，kvl case_5node 发电范围 0–200 MW 口径）",
+ "solver_timeout_ms": 60000
+}

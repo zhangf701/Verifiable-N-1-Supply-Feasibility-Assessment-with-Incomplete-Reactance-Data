@@ -1,0 +1,4 @@
+﻿bus,remaining_load_MW,maxflow_MW,maxflow_shortfall_MW,dc_status,dc_reason,dc_served_MW_summary,dc_served_MW_unrounded,obj_rat,dc_shortfall_MW,dc_time_ms,obj_lower,obj_upper,optimality,max_kcl_res,max_dc_res,max_cap_exc,max_gen_exc,max_shed_exc,max_angle_exc
+1,6156.63,6156.63,0.0,unknown,unknown,,,,,25.06,,,not_checked,,,,,,
+32,6254.23,6254.23,0.0,unknown,unknown,,,,,16.34,,,not_checked,,,,,,
+1,6156.63,6156.63,0.0,unsat,forced_contradiction,,,,,1.0,,,not_checked,,,,,,

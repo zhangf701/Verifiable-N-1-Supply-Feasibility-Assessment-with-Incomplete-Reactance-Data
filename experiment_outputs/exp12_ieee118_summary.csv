@@ -1,0 +1,2 @@
+total,decision_match,unsat,unknown_timeout,dmax_err_max_mw,kcl_residual_max,mf_tp,mf_fp,mf_fn,mf_intercept_on_dcunsat
+304,304,4,0,0.0,1.5e-11,4,0,0,4/4
